@@ -8,6 +8,13 @@ public class Tesis extends Escrito{
   private String referencias;
   private String interpretacion;
 
+  public Tesis(String idea,ArrayList<String> arg,String conclusion,String referencias,String interpretacion){
+    this.idea=idea;
+    argumentos=arg; 
+    this.conclusion=conclusion;
+    this.referencias=referencias;
+    this.interpretacion=interpretacion;
+  }
   public String interpretacion(){
     return this.interpretacion;
   }
