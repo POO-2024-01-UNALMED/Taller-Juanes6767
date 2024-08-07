@@ -23,7 +23,8 @@ public class Tesis extends Escrito{
     return this.interpretacion;
   }
   public String toString(){
-    return ""+super.origen+"\n"+super.titulo+"\n"+super.autor+"\n"+super.paginas+"\n"+this.idea+"\n"+argumentos.length+"\n"+this.conclusion"\n"+this.referencias+"";
+    String s=super.origen+"\n"+super.titulo+"\n"+super.autor+"\n"+super.paginas+"\n"+this.idea+"\n"+argumentos.length+"\n"+this.conclusion"\n"+this.referencias;
+    return s;
   }
   public String getIdea(){
     return this.idea;
