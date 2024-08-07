@@ -10,7 +10,7 @@ public class Fabula extends Escrito{
     this.interpretacion=i;
   }
   public int palabrasTotales(int p){
-    return p;
+    return p*super.getPaginas();
   }
   public String interpretacion(){
     return this.interpretacion;
