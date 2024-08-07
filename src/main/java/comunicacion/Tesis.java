@@ -11,4 +11,28 @@ public class Tesis extends Escrito{
   public String interpretacion(){
     return this.interpretacion;
   }
+  public String getIdea(){
+    return this.idea;
+  }
+  public setIdea(String s){
+    this.idea=s;
+  }
+  public ArrayList<String> getArgumentos(){
+    return argumentos;
+  }
+  public setArgumentos(String s){
+    argumentos=s;
+  }
+  public String getConclusion(){
+    return this.conclusion;
+  }
+  public setConclusion(String s){
+    this.conclusion=s;
+  }
+  public String getReferencias(){
+    return this.referencias;
+  }
+  public setReferencias(String s){
+    this.referencias=s;
+  }
 }
