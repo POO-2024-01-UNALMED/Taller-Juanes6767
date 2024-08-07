@@ -6,7 +6,14 @@ public class Libro extends Escrito{
   private String editorial;
   private String edicion;
   private String interpretacion;
-  
+
+  public Libro(String origen,String titulo,String autor, int paginas,String co,String ed,String edi,String i){
+    super(origen, titulo, autor,paginas);
+    this.co_autor=co;
+    this.editorial=ed;
+    this.edicion=edi;
+    this.interpretacion=i;
+  }
   public String interpretacion(){
     return this.interpretacion;
   }
