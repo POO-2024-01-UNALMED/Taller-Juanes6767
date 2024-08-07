@@ -24,3 +24,4 @@ public class Fabula extends Escrito{
   public void setLetras(String l){
     this.ensenanza=l;
 }
+}
