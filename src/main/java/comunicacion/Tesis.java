@@ -16,6 +16,9 @@ public class Tesis extends Escrito{
     this.referencias=referencias;
     this.interpretacion=interpretacion;
   }
+  public int palabrasTotales(int p){
+    return p*5;
+  }
   public String interpretacion(){
     return this.interpretacion;
   }
