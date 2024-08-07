@@ -9,7 +9,9 @@ public class Fabula extends Escrito{
     this.ensenanza=en;
     this.interpretacion=i;
   }
-  
+  public int palabrasTotales(int p){
+    return p;
+  }
   public String interpretacion(){
     return this.interpretacion;
   }
