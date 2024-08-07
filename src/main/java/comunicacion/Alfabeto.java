@@ -1,7 +1,7 @@
 package comunicacion;
 import java.util.*
 public class Alfabeto extends Pictograma{
-  private static ArrayList<String> letras;
+  private static String[] letras;
   private String interpretacion;
 
   int cantidadLetras(){}
@@ -9,11 +9,11 @@ public class Alfabeto extends Pictograma{
   public String interpretacion(){
     return this.interpretacion;
   }
-  public ArrayList<String> getLetras(){
+  public String[] getLetras(){
     return letras;
   }
-  public void setLetras(ArrayList<String> letras){
-    this.letras=letras;
+  public void setLetras(String[] l){
+    letras=l;
   }
   
 }
