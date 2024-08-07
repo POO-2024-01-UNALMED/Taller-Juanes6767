@@ -3,12 +3,13 @@ package comunicacion;
 public class Tesis extends Escrito{
 
   private String idea;
-  private static ArrayList<String> argumentos; 
+  private static String[] argumentos; 
   private String conclusion;
   private String referencias;
   private String interpretacion;
 
-  public Tesis(String idea,ArrayList<String> arg,String conclusion,String referencias,String interpretacion){
+  public Tesis(String idea,String[] arg,String conclusion,String referencias,String interpretacion, String origen, String titulo, String autor, int paginas){
+    super(origen, titulo,autor,paginas);
     this.idea=idea;
     argumentos=arg; 
     this.conclusion=conclusion;
@@ -24,10 +25,10 @@ public class Tesis extends Escrito{
   public setIdea(String s){
     this.idea=s;
   }
-  public ArrayList<String> getArgumentos(){
+  public String[] getArgumentos(){
     return argumentos;
   }
-  public setArgumentos(String s){
+  public setArgumentos(String[] s){
     argumentos=s;
   }
   public String getConclusion(){
