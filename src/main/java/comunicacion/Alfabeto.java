@@ -1,5 +1,5 @@
 package comunicacion;
-import java.util.*
+import java.util.*;
 public class Alfabeto extends Pictograma{
   private static String[] letras;
   private String interpretacion;
