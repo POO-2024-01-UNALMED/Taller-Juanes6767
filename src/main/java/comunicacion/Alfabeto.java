@@ -5,4 +5,8 @@ public class Alfabeto extends Pictograma{
   private String interpretacion;
 
   int cantidadLetras(){}
+  
+  public String interpretacion(){
+    return this.interpretacion;
+  }
 }
