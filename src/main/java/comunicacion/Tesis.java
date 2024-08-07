@@ -29,25 +29,25 @@ public class Tesis extends Escrito{
   public String getIdea(){
     return this.idea;
   }
-  public setIdea(String s){
+  public void setIdea(String s){
     this.idea=s;
   }
   public String[] getArgumentos(){
     return argumentos;
   }
-  public setArgumentos(String[] s){
+  public void setArgumentos(String[] s){
     argumentos=s;
   }
   public String getConclusion(){
     return this.conclusion;
   }
-  public setConclusion(String s){
+  public void setConclusion(String s){
     this.conclusion=s;
   }
   public String getReferencias(){
     return this.referencias;
   }
-  public setReferencias(String s){
+  public void setReferencias(String s){
     this.referencias=s;
   }
 }
