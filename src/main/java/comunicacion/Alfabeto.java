@@ -10,7 +10,9 @@ public class Alfabeto extends Pictograma{
     this.interpretacion=i;
     
   }
-  int cantidadLetras(){}
+  public static int cantidadLetras(){
+    return letras.length;
+  }
   
   public String interpretacion(){
     return this.interpretacion;
