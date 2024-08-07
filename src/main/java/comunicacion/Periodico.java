@@ -11,6 +11,9 @@ public class Periodico extends Escrito{
     this.primicia=p;
     this.interpretacion=i;
   }
+  public int palabrasTotales(int p){
+    return p*10;
+  }
   public String interpretacion(){
     return this.interpretacion;
   }
