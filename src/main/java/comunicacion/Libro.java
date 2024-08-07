@@ -14,6 +14,9 @@ public class Libro extends Escrito{
     this.edicion=edi;
     this.interpretacion=i;
   }
+  public int palabrasTotales(int p){
+    return p*2;
+  }
   public String interpretacion(){
     return this.interpretacion;
   }
