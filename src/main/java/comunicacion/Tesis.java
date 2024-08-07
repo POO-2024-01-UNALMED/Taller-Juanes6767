@@ -7,4 +7,8 @@ public class Tesis extends Escrito{
   private String conclusion;
   private String referencias;
   private String interpretacion;
+
+  public String interpretacion(){
+    return this.interpretacion;
+  }
 }
