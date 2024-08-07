@@ -5,6 +5,12 @@ public class Periodico extends Escrito{
   private String primicia;
   private String interpretacion;
 
+  public Periodico(String origen,String titulo,String autor, int paginas,String f,String p,String i){
+    super(origen, titulo,autor,paginas);
+    this.fecha=f;
+    this.primicia=p;
+    this.interpretacion=i;
+  }
   public String interpretacion(){
     return this.interpretacion;
   }
