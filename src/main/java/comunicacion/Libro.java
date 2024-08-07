@@ -21,7 +21,7 @@ public class Libro extends Escrito{
     return this.interpretacion;
   }
   public String toString(){
-    return super.origen+"\n"+super.titulo+"\n"+super.autor+"\n"+super.paginas+"\n"+this.co_autor+"\n"+this.editorial+"\n"+this.edicion;
+    return super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor()+"\n"+super.getPaginas()+"\n"+this.co_autor+"\n"+this.editorial+"\n"+this.edicion;
   }
   public String getCo_autor(){
     return this.co_autor;
