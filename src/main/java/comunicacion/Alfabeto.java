@@ -9,4 +9,11 @@ public class Alfabeto extends Pictograma{
   public String interpretacion(){
     return this.interpretacion;
   }
+  public ArrayList<String> getLetras(){
+    return letras;
+  }
+  public void setLetras(ArrayList<String> letras){
+    this.letras=letras;
+  }
+  
 }
